@@ -9,7 +9,7 @@
     tools:context=".SplashActivity">
 
     <TextView
-        android:id="@+id/tit_moeda"
+        android:id="@+id/tit_coin"
         android:layout_width="310dp"
         android:layout_height="84dp"
         android:fontFamily="@font/cabin"
