@@ -1,9 +1,10 @@
-package br.everis.beca_mobile_03_android___squad_2
+package br.everis.beca_mobile_03_android___squad_2.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import br.everis.beca_mobile_03_android___squad_2.R
 
 class SplashActivity : AppCompatActivity() {
 
