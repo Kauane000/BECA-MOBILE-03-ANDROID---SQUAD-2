@@ -1,5 +1,7 @@
 package br.everis.beca_mobile_03_android___squad_2
 
+import android.content.Context
+import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -9,13 +11,15 @@ import br.everis.beca_mobile_03_android___squad_2.model.CryptoCoin
 import retrofit2.Call
 import retrofit2.Response
 
-class MainViewModel: ViewModel() {
+class MainViewModel: ViewModel(), List<CryptoCoin> {
+    private lateinit var context: Context
     val listCoinResult: MutableList<CryptoCoin> = arrayListOf()
     private val coinLiveData: MutableLiveData<List<CryptoCoin>> = MutableLiveData()
     val listCoin : LiveData<List<CryptoCoin>>
     get() = coinLiveData
 
-    fun init(){
+    fun init(context: Context){
+        this.context = context
         setListCoin()
     }
 
@@ -38,4 +42,8 @@ class MainViewModel: ViewModel() {
         })
 
     }
+     fun observerCoin(lifecycleOwner: LifecycleOwner,
+                             action: (List<CryptoCoin>) -> Unit) {
+         listCoin.observe(lifecycleOwner, {action(this)})
+     }
 }

@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class CoinService {
 
     companion object{
-        const val BASE_URL = "http://rest-sandbox.coinapi.io/"
+        const val BASE_URL = "https://rest.coinapi.io"
         const val API_KEY = "CFB9107C-F454-4F93-B412-C7F15E3D284D"
 
         var retrofit: Retrofit = Retrofit.Builder()
@@ -14,6 +14,6 @@ class CoinService {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-       // fun coinRetrofitApi(): CoinApi = ConioProvider().create(CoinApi::class.java)
+        fun coinRetrofitApi(): CoinApi = retrofit.create(CoinApi::class.java)
     }
 }

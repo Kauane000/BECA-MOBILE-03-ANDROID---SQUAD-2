@@ -13,7 +13,7 @@ import com.google.android.material.circularreveal.CircularRevealLinearLayout
 import com.squareup.picasso.Picasso
 
 
-class CoinAdapter(private var cryptoCoinList:List<CryptoCoin>, private val context: Context)
+class CoinAdapter(private var cryptoCoinList:List<CryptoCoin>,  val context: Context)
     : RecyclerView.Adapter<CoinViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CoinViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.coin_item, parent,false)
@@ -49,15 +49,4 @@ class CoinViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
     val assetID: TextView = itemView.findViewById(R.id.asset_id)
     val priceUsd: TextView? = itemView.findViewById(R.id.price_usd)
 
-    //fun bind(cryptoCoin : CryptoCoin){
-
-      //  itemView.setOnClickListener{
-
-    //    }
-
- //   }
-
-
-
-   //
 }
