@@ -1,12 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.appcompat:appcompat-resources:1.2.0@aar">
     <CLASSES>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d5bdf2f2fd65b8fcff42e983a0850526/jetified-appcompat-resources-1.2.0/AndroidManifest.xml" />
->>>>>>> 3b0c5182c767ae6e5e2a70a4453f4ccbde212aa8
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d5bdf2f2fd65b8fcff42e983a0850526/jetified-appcompat-resources-1.2.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d5bdf2f2fd65b8fcff42e983a0850526/jetified-appcompat-resources-1.2.0/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/d5bdf2f2fd65b8fcff42e983a0850526/jetified-appcompat-resources-1.2.0/AndroidManifest.xml" />
@@ -14,24 +8,6 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat-resources/1.2.0/9c8b428f65a329eeff4f6abe14a44931b12ef3f2/appcompat-resources-1.2.0-sources.jar!/" />
-<<<<<<< HEAD
-=======
-=======
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5bdf2f2fd65b8fcff42e983a0850526/jetified-appcompat-resources-1.2.0/AndroidManifest.xml" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES>
-=======
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5bdf2f2fd65b8fcff42e983a0850526/jetified-appcompat-resources-1.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5bdf2f2fd65b8fcff42e983a0850526/jetified-appcompat-resources-1.2.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d5bdf2f2fd65b8fcff42e983a0850526/jetified-appcompat-resources-1.2.0/AndroidManifest.xml" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES>
->>>>>>> SearchImplementation
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat-resources/1.2.0/9c8b428f65a329eeff4f6abe14a44931b12ef3f2/appcompat-resources-1.2.0-sources.jar!/" />
->>>>>>> feat/TelaPrincipal
->>>>>>> 3b0c5182c767ae6e5e2a70a4453f4ccbde212aa8
     </SOURCES>
   </library>
 </component>
