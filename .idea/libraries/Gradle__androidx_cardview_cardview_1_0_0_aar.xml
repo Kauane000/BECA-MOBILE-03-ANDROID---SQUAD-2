@@ -1,13 +1,44 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.cardview:cardview:1.0.0@aar">
     <CLASSES>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3b0c5182c767ae6e5e2a70a4453f4ccbde212aa8
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/" />
+<<<<<<< HEAD
+=======
+=======
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+=======
+>>>>>>> b2f3085259f2603ead598deea0fe668f6f112ca3
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/036e7ee8aa9548d79b7d25c6ad0be62d/cardview-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+>>>>>>> SearchImplementation
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.cardview/cardview/1.0.0/c9f3ce7ca74ad2c978230f4094ba6804c5166f9c/cardview-1.0.0-sources.jar!/" />
+<<<<<<< HEAD
+=======
+>>>>>>> feat/TelaPrincipal
+>>>>>>> 3b0c5182c767ae6e5e2a70a4453f4ccbde212aa8
+>>>>>>> b2f3085259f2603ead598deea0fe668f6f112ca3
     </SOURCES>
   </library>
 </component>

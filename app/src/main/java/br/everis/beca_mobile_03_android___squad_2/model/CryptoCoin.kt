@@ -1,7 +1,13 @@
 package br.everis.beca_mobile_03_android___squad_2.model
 
+import android.os.Parcelable
+import br.everis.beca_mobile_03_android___squad_2.api.CoinApi
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
+import retrofit2.Call
 
+
+@Parcelize
 data class CryptoCoin (
 
     @SerializedName("asset_id") var asset_id: String?,
@@ -11,4 +17,5 @@ data class CryptoCoin (
     @SerializedName("data_end") var data_end: String?,
     @SerializedName("data_quote_start") var data_quote_start: String?
 
-)
+
+):Parcelable
