@@ -16,16 +16,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        viewModel = ViewModelProvider.NewInstanceFactory().create(MainViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         viewModel.init()
-        viewModel.listCoin.observe(this,{ list ->
-            if(list != null){
-                recycler_items.adapter = CoinAdapter(list)
-            }else{
-
-            }
-        })
-
-    }
-
+        viewModel.listCoin.observe(this)
 }

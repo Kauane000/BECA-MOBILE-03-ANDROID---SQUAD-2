@@ -10,12 +10,14 @@ import retrofit2.Call
 @Parcelize
 data class CryptoCoin (
 
-    @SerializedName("asset_id") var asset_id: String?,
+    @SerializedName("asset_id") var assetId: String?,
     @SerializedName("name") var name: String?,
-    @SerializedName("type_is_crypto") var type_is_crypto: String?,
-    @SerializedName("data_star") var data_star: String?,
-    @SerializedName("data_end") var data_end: String?,
-    @SerializedName("data_quote_start") var data_quote_start: String?
+    @SerializedName("type_is_crypto") var typeCrypto: String?,
+    @SerializedName("volume_1hrs_usd") var volumeHour: String?,
+    @SerializedName("volume_1day_usd") var volumeDay: String?,
+    @SerializedName("volume_1mth_usd") var volumeMonth: String?,
+    @SerializedName("id_icon") var idIcon: String?,
+    @SerializedName("price_usd") var priceUsd: String?
 
 
-):Parcelable
+    ):Parcelable

@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     app:cardBackgroundColor="@color/darkgray"
+    android:id="@+id/cardCoinView"
 
     >
 
