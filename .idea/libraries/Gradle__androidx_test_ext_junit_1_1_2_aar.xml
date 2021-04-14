@@ -1,6 +1,19 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test.ext:junit:1.1.2@aar">
     <CLASSES>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/49e7fb519189a3f95fa338567dc761e2/jetified-junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/80c9e304a9ff10e70332a6b5a142aae9/jetified-junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/80c9e304a9ff10e70332a6b5a142aae9/jetified-junit-1.1.2/res" />
+>>>>>>> 3b0c5182c767ae6e5e2a70a4453f4ccbde212aa8
+>>>>>>> 007f0918f4ca798187ecdbe8a4df7a73651da471
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/80c9e304a9ff10e70332a6b5a142aae9/jetified-junit-1.1.2/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/80c9e304a9ff10e70332a6b5a142aae9/jetified-junit-1.1.2/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/80c9e304a9ff10e70332a6b5a142aae9/jetified-junit-1.1.2/AndroidManifest.xml" />
@@ -10,6 +23,34 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/androidx.test.ext/junit/1.1.2/d8ceef67c64321bbf484dc5997a1d2efa319bed7/junit-1.1.2-sources.jar!/" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.ext/junit/1.1.2/c69cad63303f01767122a49e379c6121d6721a0b/junit-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+=======
+>>>>>>> b2f3085259f2603ead598deea0fe668f6f112ca3
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80c9e304a9ff10e70332a6b5a142aae9/jetified-junit-1.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80c9e304a9ff10e70332a6b5a142aae9/jetified-junit-1.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80c9e304a9ff10e70332a6b5a142aae9/jetified-junit-1.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.ext/junit/1.1.2/c69cad63303f01767122a49e379c6121d6721a0b/junit-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+>>>>>>> SearchImplementation
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.test.ext/junit/1.1.2/d8ceef67c64321bbf484dc5997a1d2efa319bed7/junit-1.1.2-sources.jar!/" />
+<<<<<<< HEAD
+=======
+>>>>>>> feat/TelaPrincipal
+>>>>>>> 3b0c5182c767ae6e5e2a70a4453f4ccbde212aa8
+>>>>>>> b2f3085259f2603ead598deea0fe668f6f112ca3
+>>>>>>> 007f0918f4ca798187ecdbe8a4df7a73651da471
     </SOURCES>
   </library>
 </component>
