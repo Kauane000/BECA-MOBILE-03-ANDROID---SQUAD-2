@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import br.everis.beca_mobile_03_android___squad_2.model.CryptoCoin
 
 
 class CryptoCoinAdapter(
@@ -21,9 +22,9 @@ class CryptoCoinAdapter(
     override fun onBindViewHolder(holder: CoinViewHolder, position: Int) {
         val item: CryptoCoin = cryptoCoinList[position]
 //        holder.idIcon
-        holder.txtName.text = item.txtName
-        holder.assetID.text = item.assetID
-        holder.priceUsd?.text = item.priceUsd
+        holder.txtName.text = item.name
+        holder.assetID.text = item.asset_id
+        holder.priceUsd?.text = item.data_quote_start
     }
 
 }

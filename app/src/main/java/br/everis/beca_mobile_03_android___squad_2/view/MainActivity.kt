@@ -2,11 +2,11 @@ package br.everis.beca_mobile_03_android___squad_2.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-<<<<<<< HEAD:app/src/main/java/br/everis/beca_mobile_03_android___squad_2/view/MainActivity.kt
+import androidx.activity.viewModels
 import br.everis.beca_mobile_03_android___squad_2.R
-=======
 import androidx.recyclerview.widget.RecyclerView
->>>>>>> feat/RecyclerView:app/src/main/java/br/everis/beca_mobile_03_android___squad_2/MainActivity.kt
+import br.everis.beca_mobile_03_android___squad_2.MainViewModel
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val viewModel: MainViewModel by viewModels()
 
         recycleCoins = findViewById(R.id.recycler_items)
     }
