@@ -2,6 +2,7 @@
   <library name="Gradle: androidx.print:print:1.0.0@aar">
     <ANNOTATIONS>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
@@ -21,6 +22,11 @@
     </ANNOTATIONS>
     <CLASSES>
 >>>>>>> feat/TelaPrincipal
+=======
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+>>>>>>> SearchImplementation
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/206106f115d834f1282b530daecf9d84/print-1.0.0/AndroidManifest.xml" />
@@ -29,8 +35,11 @@
     <JAVADOC />
     <SOURCES>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/androidx.print/print/1.0.0/71fc2d9acf7cce6b96230c5af263268b1664914a/print-1.0.0-sources.jar!/" />
 =======
+=======
+>>>>>>> SearchImplementation
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.print/print/1.0.0/71fc2d9acf7cce6b96230c5af263268b1664914a/print-1.0.0-sources.jar!/" />
 >>>>>>> feat/TelaPrincipal
     </SOURCES>
