@@ -1,9 +1,28 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.constraintlayout:constraintlayout:2.0.4@aar">
     <CLASSES>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 3b0c5182c767ae6e5e2a70a4453f4ccbde212aa8
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/res" />
+<<<<<<< HEAD
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/AndroidManifest.xml" />
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> feat/TelaPrincipal
+=======
+>>>>>>> SearchImplementation
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba0e093ab9feaac534db9609fbf48161/constraintlayout-2.0.4/AndroidManifest.xml" />
+>>>>>>> develop
+>>>>>>> 3b0c5182c767ae6e5e2a70a4453f4ccbde212aa8
     </CLASSES>
     <JAVADOC />
     <SOURCES />
