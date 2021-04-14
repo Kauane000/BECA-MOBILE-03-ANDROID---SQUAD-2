@@ -12,8 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BECAMOBILE03ANDROIDSQUAD2">
+<<<<<<< HEAD
+        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+=======
         <activity android:name=".view.MainActivity" />
         <activity android:name=".view.SplashActivity">
+>>>>>>> develop
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
