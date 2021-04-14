@@ -9,6 +9,6 @@ import retrofit2.http.Query
 interface CoinApi {
 
     @GET("assets")
-    fun getAllListCoin(@Query("apiKey") api: String): Call<CryptoCoin>
+    fun getAllListCoin(@Query("apiKey") api: String): Call<List<CryptoCoin>>
 
 }
