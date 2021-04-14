@@ -4,4 +4,6 @@
     <string name="coins">Moedas</string>
     <string name="favorites">Adicionadas</string>
     <string name="tit_digital_coin">Moeda Digital</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

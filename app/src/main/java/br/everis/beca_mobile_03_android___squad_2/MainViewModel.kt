@@ -1,49 +1,27 @@
 package br.everis.beca_mobile_03_android___squad_2
 
-import android.content.Context
-import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import br.everis.beca_mobile_03_android___squad_2.api.CoinService
-import br.everis.beca_mobile_03_android___squad_2.api.CoinService.Companion.API_KEY
+import androidx.lifecycle.*
 import br.everis.beca_mobile_03_android___squad_2.model.CryptoCoin
-import retrofit2.Call
-import retrofit2.Response
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
-class MainViewModel: ViewModel(), List<CryptoCoin> {
-    private lateinit var context: Context
-    val listCoinResult: MutableList<CryptoCoin> = arrayListOf()
+class MainViewModel: ViewModel(){
+
+    private var coinService : CoinRespository = CoinRespository()
     private val coinLiveData: MutableLiveData<List<CryptoCoin>> = MutableLiveData()
+
+    //val listCoinResult: MutableList<CryptoCoin> = arrayListOf()
     val listCoin : LiveData<List<CryptoCoin>>
     get() = coinLiveData
 
-    fun init(context: Context){
-        this.context = context
-        setListCoin()
+     fun observeCoin(lifecycleOwner: LifecycleOwner,
+                             action: (List<CryptoCoin>) -> Unit) =
+         listCoin.observe(lifecycleOwner, {action(it)})
+
+
+    fun getCoin() {
+        viewModelScope.launch(Dispatchers.IO) {
+            listCoin.run { this.postValue(CryptoCoin.getCoin()) }
+        }
     }
-
-
-    private fun setListCoin() {
-        val call = CoinService.coinRetrofitApi().getListCoin(API_KEY)
-
-        call.enqueue(object : retrofit2.Callback<List<CryptoCoin>> {
-            override fun onResponse(call: Call<List<CryptoCoin>>, response: Response<List<CryptoCoin>>) {
-                if (response.isSuccessful)
-                    response.body()?.forEach {
-                        listCoinResult.add(it)
-                    }
-                coinLiveData.postValue(listCoinResult)
-            }
-
-            override fun onFailure(call: Call<List<CryptoCoin>>, t: Throwable) {
-                coinLiveData.postValue(null)
-            }
-        })
-
-    }
-     fun observerCoin(lifecycleOwner: LifecycleOwner,
-                             action: (List<CryptoCoin>) -> Unit) {
-         listCoin.observe(lifecycleOwner, {action(this)})
-     }
 }
